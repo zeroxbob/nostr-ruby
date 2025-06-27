@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.require_paths = ['lib']
 
-  s.add_dependency 'base64', '~> 0.1.1'
+  s.add_dependency 'base64', '>= 0.2.0'
   s.add_dependency 'bech32', '~> 1.4.0'
   s.add_dependency 'bip-schnorr', '~> 0.4.0'
   s.add_dependency 'json', '~> 2.6.2'
